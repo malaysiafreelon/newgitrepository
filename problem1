@@ -1,0 +1,8 @@
+num = int(input("Enter a number:"))
+allnums = range(1,num+1) #numbers from 1-maximum number
+divisors = []
+for i in allnums:
+    if((num%i)==0):
+        divisors.append(i)
+print (" The number " + str(num) + " has the following divisors:")
+print (divisors)
